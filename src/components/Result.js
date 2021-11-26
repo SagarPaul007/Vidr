@@ -22,6 +22,7 @@ const Result = ({ result, searchLink }) => {
             <h3>Audio :</h3>
             {audioFormats.map((audio) => (
               <Audiolink
+                link={audio.url}
                 data={audio}
                 title={result.title}
                 searchLink={searchLink}
@@ -33,6 +34,7 @@ const Result = ({ result, searchLink }) => {
             <h3>Video :</h3>
             {videoFormats.map((video) => (
               <Videolink
+                link={video.url}
                 data={video}
                 searchLink={searchLink}
                 title={result.title}
