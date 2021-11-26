@@ -1,8 +1,6 @@
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
   padding-top: 5rem;
 }
 
@@ -16,10 +14,12 @@
 
   .heading {
     font-size: 4rem;
+    text-align: center;
   }
 
   form {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
   }
@@ -43,8 +43,31 @@
 
 .gif {
   width: 70rem;
+  text-align: center;
 
   img {
     width: 50rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .search {
+    height: 40rem;
+    width: 100%;
+    padding: 0 2rem;
+
+    .input {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .gif {
+    width: 90%;
+    text-align: center;
+
+    img {
+      width: 100%;
+    }
   }
 }

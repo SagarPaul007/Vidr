@@ -14,7 +14,9 @@ const Home = () => {
   //  State
   const [searchLink, setSearchLink] = useState("");
   const [result, setResult] = useState({ title: "initial" });
-  const [gif, setGif] = useState("");
+  const [gif, setGif] = useState(
+    "https://media.giphy.com/media/1ZDHH6zox36D1vfNsE/giphy.gif"
+  );
 
   //  Effect
   useEffect(() => {

@@ -1,8 +1,9 @@
-a {
-  background-color: #fff;
+.audio-links a,
+.video-links a {
+  background-color: white;
   margin: 1rem;
   padding: 0.5rem 1rem;
   font-size: 1.8rem;
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }

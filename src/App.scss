@@ -4,7 +4,12 @@
   color: white;
 }
 
+span {
+  color: rgb(255, 195, 195);
+}
+
 @import "./styles/navbar";
 @import "./styles/search";
 @import "./styles/results";
 @import "./styles/links";
+@import "./styles/about";

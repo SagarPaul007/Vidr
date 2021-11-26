@@ -4,6 +4,7 @@
 
 .video-details {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
@@ -28,5 +29,17 @@
 
   h3 {
     font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .result {
+    width: 100%;
+    padding: 0 2rem;
+
+    .video-details h1 {
+      padding: 1rem 0;
+      text-align: center;
+    }
   }
 }

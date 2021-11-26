@@ -6,7 +6,7 @@ nav {
 }
 
 .navbar {
-  height: 100%;
+  height: 10vh;
   width: 70rem; //change
   display: flex;
   justify-content: space-between;
@@ -14,9 +14,18 @@ nav {
 
   .logo {
     font-size: 3rem;
+    color: white;
   }
 
   .about {
     font-size: 1.8rem;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .navbar {
+    width: 100%;
+    padding: 0 2rem;
   }
 }
