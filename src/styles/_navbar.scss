@@ -15,11 +15,18 @@ nav {
   .logo {
     font-size: 3rem;
     color: white;
+    font-weight: 600;
   }
 
   .about {
     font-size: 1.8rem;
+    font-weight: 400;
     color: white;
+  }
+
+  .logo:hover,
+  .about:hover {
+    color: rgb(248, 126, 242);
   }
 }
 
