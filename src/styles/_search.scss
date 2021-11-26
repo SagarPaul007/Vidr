@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.search {
+  width: 70rem; // change
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .heading {
+    font-size: 4rem;
+  }
+
+  form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .input {
+    width: 55rem; // change
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+  }
+
+  .btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 2rem;
+    background-color: #fff;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+}
+
+.gif {
+  width: 70rem;
+
+  img {
+    width: 50rem;
+  }
+}

@@ -1,0 +1,22 @@
+nav {
+  height: 10vh;
+  background-color: #1d1d1d;
+  display: grid;
+  place-items: center;
+}
+
+.navbar {
+  height: 100%;
+  width: 70rem; //change
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    font-size: 3rem;
+  }
+
+  .about {
+    font-size: 1.8rem;
+  }
+}
